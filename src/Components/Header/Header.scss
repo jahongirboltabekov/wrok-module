@@ -1,0 +1,21 @@
+.header_div{
+    background-color: #f7ebe5;
+
+    ul{
+        display: flex;
+        padding: 16px 0;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+
+        li{
+            display: flex;
+            p{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+
+    li{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 17px;
+        }
+
+        span{
+            padding: 4px;
+            background-color: #E7426A;
+            border-radius: 50%;
+            color: white;
+        }
+    }
+}
